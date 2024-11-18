@@ -1,0 +1,52 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #ffffff; /* El color del fondo de la página web */
+    color: #360909; /* El color del texto*/ 
+}
+h1 {
+    color: #5988FF; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+h2 {
+    color: #52796f; /* El color del segundo texto*/
+    font-size: 16px; /* El tamaño del segundo texto */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en el segundo texto */
+}
+p {
+    color: #2f3e46; /* El color del segundo texto*/
+    font-size: 11px; /* El tamaño del segundo texto */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en el segundo texto */
+}
+.whatever{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+@keyframes color-change {
+    0% {
+      color: #cad2c5;
+    }
+  
+    25% {
+      color: #84a98c ;
+    }
+  
+    50% {
+      color: #52796f;
+    }
+
+    75% {
+        color: #354f52;
+      }
+
+    100% {
+        color: #2f3e46;
+    }
+
+}
+
+h1 {
+    animation: color-change 5s infinite;
+}
